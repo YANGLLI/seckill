@@ -8,15 +8,15 @@ import java.util.Date;
 public class Seckill {
     private long seckillId;
 
-    private String name;
+    private String name; // name of goods
 
-    private int number;
+    private int number; // storage amount
 
-    private Date startTime;
+    private Date startTime; // kill start time
 
-    private Date endTime;
+    private Date endTime; // kil end time
 
-    private Date createTime;
+    private Date createTime; // create time of transaction
 
     public long getSeckillId() {
         return seckillId;
